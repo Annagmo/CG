@@ -1,0 +1,140 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="crawler.js"></script>
+    <title>Here's a Story</title>
+    <style>
+        /*Roll:*/
+        
+        #cliques {
+            border-width: 1px;
+            border-style: solid;
+            border-color: black;
+            background-color: rgb(210, 242, 247);
+            width: 210px;
+            height: 100px;
+            position: absolute;
+            padding: 2px;
+            overflow: auto;
+            overflow-x: hidden;
+            text-align: center;
+            z-index: 3;
+            top: 10px;
+            left: 850px;
+        }
+
+        @font-face {
+            font-family: 'basiicmedium';
+            src: url('basiic_2-webfont.woff2') format('woff2'),
+                 url('basiic_2-webfont.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        
+        }
+        
+        @font-face {
+          font-family: 'basiicmedium';
+          src: url((https://sugarangel.neocities.org/outlfot_kor/basiic_2-webfont.woff);
+        }
+        /*-------------------Renda-------------------------------:*/          
+      .renda {
+            border-width: 9px;
+            border-style: solid;
+            border-image: url("https://cdn.discordapp.com/attachments/904308736712138793/995929957790388284/image_copy.png") 7 fill round;
+            margin: auto;
+            width: 1100px;
+            height: 940px;
+            position: relative;
+            z-index: 4;
+        }
+      body{
+        background-image: url("back2.gif");
+        background-repeat: repeat;
+        /*cursor: url("https://i.imgur.com/OniClle.gif"), default; */
+      }
+      
+      /*{cursor: blue.png, auto;}*/
+
+      .box { 
+        color: rgb(11, 160, 224);
+        font-family: "basiicmedium";
+      }
+      
+      .ascii-art {
+        font-family: monospace;
+        white-space: pre;
+        margin-left: 70em;
+        position: absolute;
+      }
+      
+      
+      type="text/css">* {
+        cursor: url(https://cur.cursors-4u.net/cursors/cur-1/cur8.ani), url(https://cur.cursors-4u.net/cursors/cur-1/cur8.png), auto !important;
+      }
+      <a href="https://www.cursors-4u.com/cursor/2005/05/08/cur8.html" target="_blank" title="Sparkly Ice"><img src="https://cur.cursors-4u.net/cursor.png" border="0" alt="Sparkly Ice" style="position:absolute; top: 0px; right: 0px;" /></a>
+    </style>
+    
+  <script>
+  function HTMLredirect(string) {
+    if(string == "naomi")
+        window.open( "https://it-knows-you.neocities.org/", "_blank" );
+    if(string == "cg")
+        window.open( "http://127.0.0.1:5500/CG/index.html", "_blank" );
+    if(string == "dino")
+        window.open( "http://pudim.com.br/", "_blank" );
+    
+  }
+  </script>
+  
+</head>
+
+<body>
+    
+    <div class="renda">
+
+        <div class="box">
+        I'm Blue
+        </div>
+
+        <button onclick = "imBlue()">1 - Blue</button>
+        
+
+
+        <input type="button" value="2 - YOU ARE BLUE" onclick="bigger('dab', 10)"> 
+        <p id="dab"></p>
+
+        <div id="cliques">
+            Clique!
+            <div class="marquee" id="mycrawler2">
+                <img id="naomi" src="naomi2.gif" onclick="HTMLredirect('naomi');">     
+                <img id="cg" src="nvf.gif" onclick="HTMLredirect('cg');">    
+                <img id="dino" src="dino.gif" onclick="HTMLredirect('dino');"> 
+                <img id="naomi" src="naomi2.gif" onclick="HTMLredirect('naomi');">  
+
+            </div>
+        </div>
+        <script type="text/javascript">
+            marqueeInit({
+                uniqueid: 'mycrawler2',
+                style: {
+                    'padding': '4px',
+                    'width': '2000px',
+                    'overflow': 'hidden'
+                },
+                inc: 5, //speed - pixel increment for each iteration of this marquee's movement
+                mouse: 'cursor driven', //mouseover behavior ('pause' 'cursor driven' or false)
+                moveatleast: 2,
+                neutral: 150,
+                savedirection: true,
+                random: true
+            });
+        </script>
+
+        <script src = "index.js" ></script>
+
+    </div>
+    
+</body>
+</html>

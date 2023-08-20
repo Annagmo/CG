@@ -1,0 +1,54 @@
+﻿~-~-~-~-~ No browser: ~-~-~-~-~
+right click
+inspect
+console
+> console.log('Hello World');
+> 2 + 3
+> alert('hi');
+
+~-~-~-~-~ Na pasta: ~-~-~-~-~
+create index.html
+! and Tab
+Live server extention installed
+index.html right click open with Live server
+in body server of html press h1, Tab, Hello World
+
+~-~-~-~-~ Javascript Code: ~-~-~-~-~
+Comentario em   <!--   --> em HTML
+comentario // JAVASCRIPT 
+
+
+need a script element that can be either in head or body section *end of body section*
+script tab 
+console.log('Hello World');
+showed in console in browser
+
+Sepárate html from javascript:
+create index.js 
+put all contents to index.js
+in html:
+<script src = "index.js" ></script>
+
+In terminal: 
+go to folder
+> node index.js
+Hello World
+
+~-~-~-~-~ Variables: ~-~-~-~-~
+let name;
+(has value undefined at first)
+
+~-~-~-~-~ Constants: ~-~-~-~-~
+const FavoriteColor = "Blue";
+
+~-~-~-~-~ Primitive Types: ~-~-~-~-~
+String
+Number
+Boolean
+undefined
+null
+
+~-~-~-~-~ Dynamic Types: ~-~-~-~-~
+Object
+Array
+Function
